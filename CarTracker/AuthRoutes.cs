@@ -11,6 +11,22 @@ namespace CarTracker
             {
 
             });
+
+            endpoints.MapGet("/api/login", () =>
+            {
+
+            });
+
+            endpoints.MapGet("/api/register", () =>
+            {
+
+            });
+
+            endpoints.MapGet("/api/logout", () =>
+            {
+
+            });
+
         }
     }
 }
