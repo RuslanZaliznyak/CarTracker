@@ -16,7 +16,8 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 
-Routes.ConfigureRoutes(app);
+CarRoutes.ConfigureRoutes(app);
+AuthRoutes.ConfigureRoutes(app);
 
 
 app.Run();
